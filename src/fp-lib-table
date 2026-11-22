@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "flora_sense") (type "KiCad") (uri "${KIPRJMOD}/flora_sense.pretty") (options "") (descr "FloraSense PCB footprints"))
+)

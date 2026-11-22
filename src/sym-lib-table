@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "flora_sense") (type "KiCad") (uri "${KIPRJMOD}/flora_sense.kicad_sym") (options "") (descr "FloraSense PCB symbols"))
+)
