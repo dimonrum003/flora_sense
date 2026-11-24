@@ -16,6 +16,18 @@
 		(uuid "147d959d-4396-4861-aa76-88ea3585b4f6")
 	)
 	(junction
+		(at 259.08 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a2684f7-9979-4822-b1ed-43938a5b7566")
+	)
+	(junction
+		(at 255.27 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c836386-25ad-47cf-99e2-6f58238ecf36")
+	)
+	(junction
 		(at 209.55 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -51,7 +63,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 124.46) (xy 270.51 124.46)
+			(xy 190.5 115.57) (xy 255.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -61,17 +73,27 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 130.81) (xy 355.6 130.81)
+			(xy 259.08 120.65) (xy 355.6 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15a61569-8511-44f6-9770-2d3ba6bff1be")
+		(uuid "0af7e082-3186-4444-8eb6-39cc20eb3477")
 	)
 	(wire
 		(pts
-			(xy 262.89 111.76) (xy 262.89 276.86)
+			(xy 355.6 193.04) (xy 337.82 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e1249b-ec32-45a7-a77c-27f0365499cf")
+	)
+	(wire
+		(pts
+			(xy 262.89 125.73) (xy 262.89 292.1)
 		)
 		(stroke
 			(width 0)
@@ -81,13 +103,33 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 118.11) (xy 266.7 283.21)
+			(xy 337.82 275.59) (xy 355.6 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2416bbb8-9fe0-4fef-990b-049e4ca40992")
+	)
+	(wire
+		(pts
+			(xy 266.7 130.81) (xy 266.7 297.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "261029a0-c0cf-47f7-b74d-ffd7bd98bfa1")
+	)
+	(wire
+		(pts
+			(xy 255.27 281.94) (xy 255.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da3023f-951b-49b5-ba87-1e6f850ad1e6")
 	)
 	(wire
 		(pts
@@ -131,7 +173,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 180.34) (xy 326.39 283.21)
+			(xy 326.39 180.34) (xy 326.39 288.29)
 		)
 		(stroke
 			(width 0)
@@ -161,7 +203,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 289.56) (xy 270.51 289.56)
+			(xy 190.5 281.94) (xy 255.27 281.94)
 		)
 		(stroke
 			(width 0)
@@ -191,7 +233,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 295.91) (xy 190.5 295.91)
+			(xy 190.5 287.02) (xy 259.08 287.02)
 		)
 		(stroke
 			(width 0)
@@ -211,23 +253,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 283.21) (xy 266.7 283.21)
+			(xy 190.5 297.18) (xy 266.7 297.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ed3effd-d76e-4166-baa5-4bd69bf20b68")
-	)
-	(wire
-		(pts
-			(xy 270.51 124.46) (xy 270.51 289.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f098406-5c39-40b4-bd85-c3fb41b89248")
 	)
 	(wire
 		(pts
@@ -241,7 +273,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 186.69) (xy 331.47 276.86)
+			(xy 331.47 186.69) (xy 331.47 281.94)
 		)
 		(stroke
 			(width 0)
@@ -261,7 +293,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 276.86) (xy 262.89 276.86)
+			(xy 190.5 292.1) (xy 262.89 292.1)
 		)
 		(stroke
 			(width 0)
@@ -271,7 +303,17 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 173.99) (xy 321.31 289.56)
+			(xy 190.5 120.65) (xy 259.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be133fc-2bf1-43b5-9a34-9c48c5311b98")
+	)
+	(wire
+		(pts
+			(xy 321.31 173.99) (xy 321.31 294.64)
 		)
 		(stroke
 			(width 0)
@@ -291,13 +333,23 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 276.86) (xy 331.47 276.86)
+			(xy 355.6 281.94) (xy 331.47 281.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "991cd680-5d97-4e99-85c5-af644b6d9046")
+	)
+	(wire
+		(pts
+			(xy 259.08 287.02) (xy 259.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb81cde-4349-4bdc-8939-bf7c8a18e573")
 	)
 	(wire
 		(pts
@@ -311,7 +363,17 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 111.76) (xy 262.89 111.76)
+			(xy 255.27 115.57) (xy 355.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6fee5d-0776-4f8d-987f-1171689e379d")
+	)
+	(wire
+		(pts
+			(xy 355.6 125.73) (xy 262.89 125.73)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +393,17 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 283.21) (xy 326.39 283.21)
+			(xy 337.82 193.04) (xy 337.82 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd4400b-6f22-49f2-9408-454c5e137905")
+	)
+	(wire
+		(pts
+			(xy 355.6 288.29) (xy 326.39 288.29)
 		)
 		(stroke
 			(width 0)
@@ -341,23 +413,13 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 167.64) (xy 316.23 295.91)
+			(xy 316.23 167.64) (xy 316.23 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6e3e30d-c532-41ab-8e46-ae977908b405")
-	)
-	(wire
-		(pts
-			(xy 355.6 118.11) (xy 266.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf55329a-3814-4c31-9cd2-5fb6b33e6e5e")
 	)
 	(wire
 		(pts
@@ -371,7 +433,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 295.91) (xy 355.6 295.91)
+			(xy 316.23 300.99) (xy 355.6 300.99)
 		)
 		(stroke
 			(width 0)
@@ -381,13 +443,23 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 289.56) (xy 321.31 289.56)
+			(xy 355.6 294.64) (xy 321.31 294.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d806e8f3-8356-46aa-8ec0-133515f46b58")
+	)
+	(wire
+		(pts
+			(xy 266.7 130.81) (xy 355.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a412c7-442a-4651-b672-d600e0b81233")
 	)
 	(wire
 		(pts
@@ -408,16 +480,6 @@
 			(type default)
 		)
 		(uuid "ef00c67b-7352-41e2-b9d7-af64bb206db0")
-	)
-	(wire
-		(pts
-			(xy 274.32 130.81) (xy 274.32 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b40334-2cef-43e7-a3de-f79c0f0bf1b8")
 	)
 	(wire
 		(pts
@@ -505,7 +567,7 @@
 			)
 		)
 		(pin "PUMP_CTRL" input
-			(at 355.6 295.91 180)
+			(at 355.6 300.99 180)
 			(uuid "c737e7f4-c29c-4a40-9b89-8f5d7253a935")
 			(effects
 				(font
@@ -515,7 +577,7 @@
 			)
 		)
 		(pin "LAMP_CTRL" input
-			(at 355.6 289.56 180)
+			(at 355.6 294.64 180)
 			(uuid "d07ce185-a66b-4a9b-ae61-4d3c7749d0df")
 			(effects
 				(font
@@ -525,7 +587,7 @@
 			)
 		)
 		(pin "MCU_RX_MIST_TX" output
-			(at 355.6 283.21 180)
+			(at 355.6 288.29 180)
 			(uuid "22784e36-3f89-4753-9bf1-abdb075b6064")
 			(effects
 				(font
@@ -535,8 +597,18 @@
 			)
 		)
 		(pin "MCU_TX_MIST_RX" input
-			(at 355.6 276.86 180)
+			(at 355.6 281.94 180)
 			(uuid "9c54baf1-16e3-47f5-a4d5-ab0480396889")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIST_PWR_EN" input
+			(at 355.6 275.59 180)
+			(uuid "e4569b97-9935-4150-9242-298474dc1612")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,6 +709,26 @@
 				(justify right)
 			)
 		)
+		(pin "I2C_SCL" bidirectional
+			(at 190.5 115.57 0)
+			(uuid "a023f631-f77c-402a-b0fd-1925b8430fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 190.5 120.65 0)
+			(uuid "e1b47ad0-229e-4fcd-a9b8-1b3782053db9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "flora_sense"
 				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3"
@@ -721,7 +813,7 @@
 			)
 		)
 		(pin "SOIL_ADC" input
-			(at 355.6 111.76 180)
+			(at 355.6 125.73 180)
 			(uuid "fa0d5b5b-dde0-4d1a-8e7d-004c0b446d61")
 			(effects
 				(font
@@ -731,7 +823,7 @@
 			)
 		)
 		(pin "WATER_LEVEL" input
-			(at 355.6 118.11 180)
+			(at 355.6 130.81 180)
 			(uuid "a4bc5f87-3b4e-42b9-874e-7b9ce7401c15")
 			(effects
 				(font
@@ -741,7 +833,7 @@
 			)
 		)
 		(pin "I2C_SCL" bidirectional
-			(at 355.6 124.46 180)
+			(at 355.6 115.57 180)
 			(uuid "bad62590-e296-4997-9046-02e282f0666e")
 			(effects
 				(font
@@ -751,7 +843,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 355.6 130.81 180)
+			(at 355.6 120.65 180)
 			(uuid "786605e5-487a-461d-adfe-ad00ac774167")
 			(effects
 				(font
@@ -793,6 +885,16 @@
 		(pin "MCU_TX_MIST_RX" output
 			(at 355.6 186.69 180)
 			(uuid "1475a66e-92d5-4ff4-88fa-fe1ebc393bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIST_PWR_EN" output
+			(at 355.6 193.04 180)
+			(uuid "26132b10-7257-4eb7-9c1f-db7b3cc0d20e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +976,7 @@
 			)
 		)
 		(pin "SOIL_ADC" output
-			(at 190.5 276.86 0)
+			(at 190.5 292.1 0)
 			(uuid "763bc52c-4ffc-4edb-b562-d98a31aa10a2")
 			(effects
 				(font
@@ -884,7 +986,7 @@
 			)
 		)
 		(pin "WATER_LEVEL" output
-			(at 190.5 283.21 0)
+			(at 190.5 297.18 0)
 			(uuid "992c6de6-45ff-4329-9280-0268a591a51a")
 			(effects
 				(font
@@ -894,7 +996,7 @@
 			)
 		)
 		(pin "I2C_SCL" bidirectional
-			(at 190.5 289.56 0)
+			(at 190.5 281.94 0)
 			(uuid "614df156-4c19-4c08-9d04-7d28bd211ad2")
 			(effects
 				(font
@@ -904,7 +1006,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 190.5 295.91 0)
+			(at 190.5 287.02 0)
 			(uuid "57f4ddf4-58b8-4d6b-b4c1-52767dad93dc")
 			(effects
 				(font

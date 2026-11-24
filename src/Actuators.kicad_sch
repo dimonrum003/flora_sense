@@ -1269,6 +1269,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "flora_sense:AO3401A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "flora_sense:AO3401A"
+				(at 15.24 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf"
+				(at 15.24 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 1.016 0.381) (xy 1.016 -0.381) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "flora_sense:AP63203WU-7"
 			(pin_names
 				(offset 1.016)
@@ -1728,7 +2015,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 				(at 12.7 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1844,7 +2131,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 				(at 12.7 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1893,7 +2180,7 @@
 			)
 			(symbol "BM52D5021_UART_1_1"
 				(pin power_in line
-					(at -2.54 -2.54 0)
+					(at 27.94 -11.43 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1911,7 +2198,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -5.08 0)
+					(at 27.94 -3.81 180)
 					(length 2.54)
 					(name "VDD_3V3"
 						(effects
@@ -1929,7 +2216,7 @@
 					)
 				)
 				(pin output line
-					(at -2.54 -7.62 0)
+					(at -2.54 -5.08 0)
 					(length 2.54)
 					(name "TX"
 						(effects
@@ -1947,7 +2234,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -10.16 0)
+					(at -2.54 -8.89 0)
 					(length 2.54)
 					(name "RX"
 						(effects
@@ -1978,6 +2265,158 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flora_sense:Bulk_C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+				(at 1.016 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Bulk_C_Polarized_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Bulk_C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6325,16 +6764,64 @@
 		)
 	)
 	(junction
+		(at 294.64 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "158d419f-d28f-40ea-89db-ca0d156aa6c1")
+	)
+	(junction
+		(at 350.52 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241f3f39-aca4-4adf-93f6-ab85f05e9ffb")
+	)
+	(junction
 		(at 317.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c543ff1-bbab-404e-b881-ada51face3c6")
 	)
 	(junction
-		(at 323.85 198.12)
+		(at 273.05 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ca95c84-016f-4dac-a186-30d8d4888b52")
+	)
+	(junction
+		(at 295.91 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43259693-a00d-4ce8-a661-c97de91919a2")
+	)
+	(junction
+		(at 332.74 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5356acbd-2b59-43ae-9d4e-9e4a30510b26")
+	)
+	(junction
+		(at 325.12 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "677dd77e-3805-4171-9c41-0a86a47ae31a")
+	)
+	(junction
+		(at 335.28 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68254a30-9c7e-4b55-967c-3d5513d8454f")
+	)
+	(junction
+		(at 335.28 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f11fdac-d847-49fd-a1ba-2696edd83d14")
+	)
+	(junction
+		(at 342.9 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8523611c-d00e-49d8-b8f7-be08358e0962")
 	)
 	(junction
 		(at 326.39 86.36)
@@ -6342,9 +6829,41 @@
 		(color 0 0 0 0)
 		(uuid "b504f433-16d6-4204-b5ea-8492d6373d62")
 	)
+	(junction
+		(at 336.55 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcd88277-0241-4f45-961c-8f116f9dd851")
+	)
+	(junction
+		(at 284.48 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1149825-7d58-4ec0-b96c-703293a8f4aa")
+	)
 	(no_connect
-		(at 353.06 307.34)
+		(at 351.79 267.97)
 		(uuid "753424e0-553b-47e5-93b7-fe8aa4e7fae8")
+	)
+	(wire
+		(pts
+			(xy 326.39 99.06) (xy 326.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0748760b-2ceb-4ed2-916c-ab621302e6b7")
+	)
+	(wire
+		(pts
+			(xy 335.28 153.67) (xy 345.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104ca84c-11b1-4c2e-ae75-518f879b33d9")
 	)
 	(wire
 		(pts
@@ -6358,6 +6877,46 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 180.34) (xy 335.28 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150eaf08-b829-44d9-95ec-3570cffeeb8c")
+	)
+	(wire
+		(pts
+			(xy 350.52 205.74) (xy 350.52 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b11e692-329d-4a4b-bbe6-24d7e733f2de")
+	)
+	(wire
+		(pts
+			(xy 284.48 231.14) (xy 284.48 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211bb655-4279-4117-8dac-254be7cae949")
+	)
+	(wire
+		(pts
+			(xy 342.9 196.85) (xy 342.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2828138d-56db-45b3-b71d-cad765705751")
+	)
+	(wire
+		(pts
 			(xy 317.5 68.58) (xy 317.5 76.2)
 		)
 		(stroke
@@ -6365,6 +6924,66 @@
 			(type default)
 		)
 		(uuid "2b02754f-478d-4466-bcae-5adf0d247501")
+	)
+	(wire
+		(pts
+			(xy 353.06 180.34) (xy 353.06 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e4f8a6-ce9e-4426-a2e3-ad1b91f84d45")
+	)
+	(wire
+		(pts
+			(xy 273.05 231.14) (xy 295.91 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3666f866-d209-4da2-9454-8c13e2626a53")
+	)
+	(wire
+		(pts
+			(xy 326.39 101.6) (xy 339.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ed3503-c9f1-4fe0-b76f-9508ceaec705")
+	)
+	(wire
+		(pts
+			(xy 353.06 199.39) (xy 355.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381ea893-fd0c-4b71-8b18-ae695aea2931")
+	)
+	(wire
+		(pts
+			(xy 294.64 76.2) (xy 294.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5d3c7e-885e-4ddd-9e38-70ccd94069bd")
+	)
+	(wire
+		(pts
+			(xy 342.9 180.34) (xy 353.06 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e1172b-c6d7-4204-a00b-406468e0313f")
 	)
 	(wire
 		(pts
@@ -6378,7 +6997,17 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 198.12) (xy 323.85 200.66)
+			(xy 339.09 101.6) (xy 339.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fdc94a-4cc2-4a8e-8e17-2d782e6f41c1")
+	)
+	(wire
+		(pts
+			(xy 325.12 142.24) (xy 325.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6398,6 +7027,56 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 153.67) (xy 335.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf3a11a-0476-4f6d-b9c1-609899b322c8")
+	)
+	(wire
+		(pts
+			(xy 276.86 190.5) (xy 316.23 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63039b97-bfeb-4115-8cd6-811b0618196b")
+	)
+	(wire
+		(pts
+			(xy 273.05 213.36) (xy 273.05 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64350f28-8419-48dc-9f4f-cc69c3a73da3")
+	)
+	(wire
+		(pts
+			(xy 335.28 156.21) (xy 335.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6437ed4d-d29a-4a5f-b74e-3c621070be53")
+	)
+	(wire
+		(pts
+			(xy 295.91 218.44) (xy 295.91 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6594c509-4301-468c-b23d-34aae82287ac")
+	)
+	(wire
+		(pts
 			(xy 353.06 68.58) (xy 317.5 68.58)
 		)
 		(stroke
@@ -6405,6 +7084,16 @@
 			(type default)
 		)
 		(uuid "668f2b5f-ee83-410c-9f62-0f6de8798b43")
+	)
+	(wire
+		(pts
+			(xy 323.85 180.34) (xy 323.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfea33d-cccc-4d30-a58d-fc3032a7d017")
 	)
 	(wire
 		(pts
@@ -6448,7 +7137,47 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 304.8) (xy 341.63 304.8)
+			(xy 273.05 231.14) (xy 273.05 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7656bad6-8cd4-4ef7-9c77-c6a61da3fade")
+	)
+	(wire
+		(pts
+			(xy 248.92 190.5) (xy 248.92 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b133a8-18a4-40be-a1af-a3b234cabb17")
+	)
+	(wire
+		(pts
+			(xy 335.28 180.34) (xy 342.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8230c539-4793-4618-a36a-1124ee81a275")
+	)
+	(wire
+		(pts
+			(xy 288.29 213.36) (xy 273.05 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ac6513-6d8b-4b0c-b6fb-fbc20971ce06")
+	)
+	(wire
+		(pts
+			(xy 346.71 264.16) (xy 351.79 264.16)
 		)
 		(stroke
 			(width 0)
@@ -6458,17 +7187,27 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 297.18) (xy 353.06 297.18)
+			(xy 336.55 66.04) (xy 353.06 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97d03009-8595-4aac-91bd-0f97995e962c")
+		(uuid "91f9b2ba-636e-43e0-9f6d-1162fb9c1f1c")
 	)
 	(wire
 		(pts
-			(xy 353.06 302.26) (xy 341.63 302.26)
+			(xy 325.12 152.4) (xy 325.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9638d7eb-3cfb-4ad0-a02e-6776bf936272")
+	)
+	(wire
+		(pts
+			(xy 346.71 260.35) (xy 351.79 260.35)
 		)
 		(stroke
 			(width 0)
@@ -6478,13 +7217,53 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 198.12) (xy 306.07 198.12)
+			(xy 303.53 142.24) (xy 307.34 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ec79916-7fab-4a94-b3e1-0db8573439ad")
+	)
+	(wire
+		(pts
+			(xy 342.9 201.93) (xy 355.6 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cb69b9-444a-4458-9a17-3d6501ececd7")
+	)
+	(wire
+		(pts
+			(xy 273.05 213.36) (xy 232.41 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ef0f5b-c705-4d64-b543-3f8cda074297")
+	)
+	(wire
+		(pts
+			(xy 248.92 190.5) (xy 269.24 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e7ce64-3c32-424f-81ce-7377f9933854")
+	)
+	(wire
+		(pts
+			(xy 332.74 101.6) (xy 332.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c427bf-1fc0-417d-949b-760f40b4ffc8")
 	)
 	(wire
 		(pts
@@ -6508,6 +7287,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 195.58) (xy 323.85 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9766ba-a2cb-4ff9-9f41-fb85f5131491")
+	)
+	(wire
+		(pts
 			(xy 339.09 81.28) (xy 339.09 76.2)
 		)
 		(stroke
@@ -6518,7 +7307,37 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 193.04) (xy 353.06 193.04)
+			(xy 294.64 66.04) (xy 336.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5dac33-3269-44d5-a04f-9e78129607a4")
+	)
+	(wire
+		(pts
+			(xy 283.21 66.04) (xy 294.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2617adc-1f1e-4631-8572-7cf1b5b596b0")
+	)
+	(wire
+		(pts
+			(xy 386.08 266.7) (xy 382.27 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2783917-9c95-4f26-95c7-e281f35b515a")
+	)
+	(wire
+		(pts
+			(xy 345.44 137.16) (xy 354.33 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6528,17 +7347,57 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 299.72) (xy 353.06 299.72)
+			(xy 295.91 203.2) (xy 295.91 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cff006dd-0b6d-4728-a858-2cc0e3a65576")
+		(uuid "c1c14d32-3f2c-401c-a17f-8050cf8a3e0b")
 	)
 	(wire
 		(pts
-			(xy 313.69 198.12) (xy 336.55 198.12)
+			(xy 386.08 259.08) (xy 382.27 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67eadc7-3b93-4086-b030-7bfbfc9c1a9e")
+	)
+	(wire
+		(pts
+			(xy 342.9 189.23) (xy 342.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c980efb8-dbb6-45ef-8510-b7b6f4ba43c1")
+	)
+	(wire
+		(pts
+			(xy 345.44 153.67) (xy 345.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0d79f6-979f-4aa3-8be7-90abf5e84974")
+	)
+	(wire
+		(pts
+			(xy 351.79 134.62) (xy 354.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad9c7ee-2eff-41ee-b425-1c8cc532c7e0")
+	)
+	(wire
+		(pts
+			(xy 314.96 142.24) (xy 337.82 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6546,8 +7405,18 @@
 		)
 		(uuid "dcca5044-b10a-4351-a013-c2d6e7ca202e")
 	)
+	(wire
+		(pts
+			(xy 295.91 190.5) (xy 295.91 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc090890-e0a0-4757-a981-55bad0c9d63e")
+	)
 	(label "LOCAL_Net__Q2_D_"
-		(at 349.25 193.04 0)
+		(at 350.52 137.16 0)
 		(effects
 			(font
 				(size 0.01 0.01)
@@ -6565,7 +7434,7 @@
 		(uuid "c6699d6b-b325-48b1-88d2-f42dade8f776")
 	)
 	(label "LOCAL_Net__Q2_G_"
-		(at 323.85 198.12 0)
+		(at 325.12 142.24 0)
 		(effects
 			(font
 				(size 0.01 0.01)
@@ -6595,7 +7464,7 @@
 	)
 	(hierarchical_label "MCU_RX_MIST_TX"
 		(shape output)
-		(at 341.63 302.26 180)
+		(at 346.71 260.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6606,7 +7475,7 @@
 	)
 	(hierarchical_label "MCU_TX_MIST_RX"
 		(shape input)
-		(at 341.63 304.8 180)
+		(at 346.71 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6637,9 +7506,20 @@
 		)
 		(uuid "6e6dfc30-337d-4b9f-860a-af7608774283")
 	)
+	(hierarchical_label "MIST_PWR_EN"
+		(shape input)
+		(at 232.41 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f227ce7-ccfa-4184-b3f9-ad7168b6604c")
+	)
 	(hierarchical_label "LAMP_CTRL"
 		(shape input)
-		(at 302.26 198.12 180)
+		(at 303.53 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6743,7 +7623,7 @@
 	)
 	(symbol
 		(lib_id "flora_sense:BM52D5021_UART")
-		(at 355.6 294.64 0)
+		(at 354.33 255.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6753,7 +7633,7 @@
 		(dnp no)
 		(uuid "11a7b10c-fb6a-4105-8732-7cc9cb7b6fce")
 		(property "Reference" "J8"
-			(at 368.3 289.56 0)
+			(at 367.03 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6763,7 +7643,7 @@
 			)
 		)
 		(property "Value" "BM52D5021_UART"
-			(at 368.3 292.1 0)
+			(at 367.03 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6772,8 +7652,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 368.3 313.69 0)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 367.03 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bestmodulescorp.com/en/bm52d5021-1.html"
-			(at 368.3 317.5 0)
+			(at 367.03 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +7675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 355.6 294.64 0)
+			(at 354.33 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6918,7 +7798,7 @@
 	)
 	(symbol
 		(lib_id "flora_sense:Lamp_5V_Remote")
-		(at 355.6 187.96 0)
+		(at 356.87 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6928,7 +7808,7 @@
 		(dnp no)
 		(uuid "27cbb350-5b05-4334-86e1-c34a1ad13d19")
 		(property "Reference" "J6"
-			(at 368.3 182.88 0)
+			(at 369.57 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6937,8 +7817,8 @@
 				)
 			)
 		)
-		(property "Value" "Lamp_5V_Remote"
-			(at 368.3 185.42 0)
+		(property "Value" "Plant grow lamp 5V 3W"
+			(at 369.57 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6948,7 +7828,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 368.3 199.39 0)
+			(at 369.57 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +7839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 203.2 0)
+			(at 369.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,7 +7850,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 355.6 187.96 0)
+			(at 356.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7002,7 +7882,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 309.88 198.12 90)
+		(at 311.15 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7012,7 +7892,7 @@
 		(dnp no)
 		(uuid "359a59f7-e7b8-4e15-b65c-a38af47ee9ba")
 		(property "Reference" "R17"
-			(at 309.88 196.088 90)
+			(at 311.15 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7022,7 +7902,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 309.88 198.12 90)
+			(at 311.15 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7031,8 +7911,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 309.88 199.898 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 311.15 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +7923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 198.12 0)
+			(at 311.15 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 198.12 0)
+			(at 311.15 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7096,7 +7976,7 @@
 		(dnp no)
 		(uuid "36b7e169-815d-4223-884b-addac9b0cbd9")
 		(property "Reference" "R16"
-			(at 328.422 95.25 90)
+			(at 322.834 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7106,7 +7986,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 326.39 95.25 90)
+			(at 322.58 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7115,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.612 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +8050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 353.06 276.86 0)
+		(at 350.52 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7180,7 +8060,7 @@
 		(dnp no)
 		(uuid "37e94965-6a69-47ae-b496-94878af34d88")
 		(property "Reference" "#PWR950010"
-			(at 353.06 283.21 0)
+			(at 350.52 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7191,7 +8071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 353.06 280.67 0)
+			(at 350.52 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7201,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 276.86 0)
+			(at 350.52 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 276.86 0)
+			(at 350.52 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,7 +8103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 276.86 0)
+			(at 350.52 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7251,8 +8131,8 @@
 		)
 	)
 	(symbol
-		(lib_id "flora_sense:BM52D5021_PWR")
-		(at 355.6 271.78 0)
+		(lib_id "Device:R")
+		(at 295.91 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7260,9 +8140,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "414e5744-2f89-4217-ae47-26c76dd0ea72")
-		(property "Reference" "J7"
-			(at 368.3 266.7 0)
+		(uuid "3aea3cfa-d2c3-4a6a-85b2-69273241401f")
+		(property "Reference" "R27"
+			(at 292.354 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7271,8 +8151,8 @@
 				)
 			)
 		)
-		(property "Value" "BM52D5021_PWR"
-			(at 368.3 269.24 0)
+		(property "Value" "1k"
+			(at 292.354 200.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7281,8 +8161,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 368.3 283.21 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 294.132 199.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,8 +8172,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bestmodulescorp.com/en/bm52d5021-1.html"
-			(at 368.3 287.02 0)
+		(property "Datasheet" ""
+			(at 295.91 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +8184,177 @@
 			)
 		)
 		(property "Description" ""
-			(at 355.6 271.78 0)
+			(at 295.91 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a216439-950e-4359-8080-2a4e5dbe81e8")
+		)
+		(pin "2"
+			(uuid "db57a793-49b2-4b66-987a-c5b9e8253609")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "FloraSense"
+				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 342.9 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f90e4b7-4101-4a0d-b196-670ba835ca12")
+		(property "Reference" "C21"
+			(at 346.456 192.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 345.694 194.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 343.8652 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8e65ac2-2d6d-4aa2-a458-845bde330a48")
+		)
+		(pin "2"
+			(uuid "3aea3060-6ed0-4219-aca0-e291aab279d2")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "FloraSense"
+				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flora_sense:BM52D5021_PWR")
+		(at 358.14 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "414e5744-2f89-4217-ae47-26c76dd0ea72")
+		(property "Reference" "J7"
+			(at 370.84 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM52D5021_PWR"
+			(at 370.84 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 370.84 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bestmodulescorp.com/en/bm52d5021-1.html"
+			(at 370.84 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7335,90 +8385,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 397.51 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "565123d9-9596-4166-8bb4-eeb25099d257")
-		(property "Reference" "#PWR950002"
-			(at 397.51 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 397.51 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 397.51 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a7787b5-f822-41be-9463-f27841026ef8")
-		)
-		(instances
-			(project "flora_sense"
-				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950002")
-					(unit 1)
-				)
-			)
-			(project "FloraSense"
-				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 397.51 68.58 0)
+		(lib_id "flora_sense:Bulk_C_Polarized")
+		(at 336.55 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7428,7 +8396,7 @@
 		(dnp no)
 		(uuid "56b08344-51bd-408b-85e5-cb72001fbc6b")
 		(property "Reference" "C13"
-			(at 398.145 66.04 0)
+			(at 329.946 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,8 +8406,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 398.145 71.12 0)
+		(property "Value" "100uF 10V+"
+			(at 333.248 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7449,8 +8417,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 398.4752 72.39 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 335.5848 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +8429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 68.58 0)
+			(at 336.55 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,7 +8440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 397.51 68.58 0)
+			(at 336.55 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7504,7 +8472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 346.71 299.72 0)
+		(at 386.08 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7514,7 +8482,7 @@
 		(dnp no)
 		(uuid "5ef94bec-0676-4d18-ac9a-6f0b9dc65844")
 		(property "Reference" "#PWR950001"
-			(at 346.71 303.53 0)
+			(at 386.08 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +8493,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 346.71 296.164 0)
+			(at 386.08 255.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 299.72 0)
+			(at 386.08 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7546,7 +8514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 299.72 0)
+			(at 386.08 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +8525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 299.72 0)
+			(at 386.08 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7586,7 +8554,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 326.39 99.06 0)
+		(at 332.74 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7596,7 +8564,7 @@
 		(dnp no)
 		(uuid "6ab45379-590d-4d45-a8d4-a8418fdc96b4")
 		(property "Reference" "#PWR950014"
-			(at 326.39 105.41 0)
+			(at 332.74 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,7 +8575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.39 102.87 0)
+			(at 332.74 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7617,7 +8585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 99.06 0)
+			(at 332.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7628,7 +8596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 99.06 0)
+			(at 332.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7639,7 +8607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 99.06 0)
+			(at 332.74 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7667,19 +8635,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 339.09 91.44 0)
+		(lib_id "Device:R")
+		(at 273.05 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6f7ef6db-9b49-41e1-824a-e527ebaccfc9")
-		(property "Reference" "#PWR950012"
-			(at 339.09 97.79 0)
-			(hide yes)
+		(uuid "6cab7665-7953-44d4-b8a0-bb773afd2504")
+		(property "Reference" "R28"
+			(at 269.314 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7688,8 +8655,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 339.09 95.25 0)
+		(property "Value" "100k"
+			(at 269.06 224.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7698,30 +8665,30 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 339.09 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 271.092 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.9 0.9)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 91.44 0)
+			(at 273.05 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.9 0.9)
 				)
 			)
 		)
 		(property "Description" ""
-			(at 339.09 91.44 0)
+			(at 273.05 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7731,18 +8698,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "a75a7f8f-4fa3-47f0-8d12-cc45c4e6f069")
+			(uuid "8b8bfc1a-a5f5-4d80-9924-245ec1493f1f")
+		)
+		(pin "2"
+			(uuid "12bf854a-d709-44d4-af75-f87193f136ba")
 		)
 		(instances
 			(project "flora_sense"
 				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950012")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 			(project "FloraSense"
 				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950012")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7750,7 +8720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 208.28 0)
+		(at 284.48 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7758,9 +8728,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "71a2edef-d841-4822-96b8-de3b4eb6226e")
-		(property "Reference" "#PWR950015"
-			(at 323.85 214.63 0)
+		(uuid "754223db-fbe0-4868-90e1-237e9aa13902")
+		(property "Reference" "#PWR950117"
+			(at 284.48 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7771,7 +8741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 212.09 0)
+			(at 284.48 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7781,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 208.28 0)
+			(at 284.48 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7792,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 208.28 0)
+			(at 284.48 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +8773,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 208.28 0)
+			(at 284.48 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7813,18 +8783,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "8814ce19-8116-4a40-81e1-35cc0ef22f7f")
+			(uuid "7adf152f-7be7-401a-9880-f232aec38718")
 		)
 		(instances
 			(project "flora_sense"
 				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950015")
+					(reference "#PWR950117")
 					(unit 1)
 				)
 			)
 			(project "FloraSense"
 				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950015")
+					(reference "#PWR950117")
 					(unit 1)
 				)
 			)
@@ -7842,7 +8812,7 @@
 		(dnp no)
 		(uuid "878087f4-55e3-418f-8933-39b5c9633a44")
 		(property "Reference" "Q1"
-			(at 336.55 76.2 0)
+			(at 345.186 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7852,7 +8822,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 336.55 78.74 0)
+			(at 345.694 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7919,7 +8889,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 353.06 190.5 0)
+		(at 248.92 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7927,9 +8897,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8f352c78-ccea-4832-9e74-b092ec97dd66")
-		(property "Reference" "#PWR950006"
-			(at 353.06 194.31 0)
+		(uuid "8a91b41c-6061-4c9a-82a9-5555cf48925b")
+		(property "Reference" "#PWR950115"
+			(at 248.92 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +8910,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 353.06 186.944 0)
+			(at 248.92 184.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7950,7 +8920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 190.5 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +8931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 190.5 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +8942,89 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 190.5 0)
+			(at 248.92 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f2ed1d3-0f84-420c-9dbb-8fd4ece9015e")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "#PWR950115")
+					(unit 1)
+				)
+			)
+			(project "FloraSense"
+				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
+					(reference "#PWR950115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 351.79 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f352c78-ccea-4832-9e74-b092ec97dd66")
+		(property "Reference" "#PWR950006"
+			(at 351.79 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 351.79 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7994,88 +9046,6 @@
 			(project "FloraSense"
 				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
 					(reference "#PWR950006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 353.06 274.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "975bba0a-a798-465c-a1d7-2fe700ae2cc0")
-		(property "Reference" "#PWR950007"
-			(at 353.06 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 353.06 270.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6d9b4d9-fea4-41a2-a069-a5a9f2acd86c")
-		)
-		(instances
-			(project "flora_sense"
-				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950007")
-					(unit 1)
-				)
-			)
-			(project "FloraSense"
-				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950007")
 					(unit 1)
 				)
 			)
@@ -8165,7 +9135,7 @@
 	)
 	(symbol
 		(lib_id "flora_sense:AO3400A")
-		(at 341.63 198.12 0)
+		(at 342.9 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8175,7 +9145,7 @@
 		(dnp no)
 		(uuid "a67940ba-cf91-4d56-b331-338ff66381b6")
 		(property "Reference" "Q2"
-			(at 341.63 187.96 0)
+			(at 350.774 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,7 +9155,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 341.63 190.5 0)
+			(at 351.79 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8195,7 +9165,7 @@
 			)
 		)
 		(property "Footprint" "flora_sense:AO3400A"
-			(at 356.87 217.17 0)
+			(at 358.14 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8206,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
-			(at 356.87 220.98 0)
+			(at 358.14 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +9187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 198.12 0)
+			(at 342.9 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8252,7 +9222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 397.51 72.39 0)
+		(at 336.55 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8262,7 +9232,7 @@
 		(dnp no)
 		(uuid "aa4ffbab-0a9a-4754-9cd1-b9012a9cdfca")
 		(property "Reference" "#PWR950008"
-			(at 397.51 78.74 0)
+			(at 336.55 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +9243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 397.51 76.2 0)
+			(at 336.55 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8283,7 +9253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 72.39 0)
+			(at 336.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +9264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 72.39 0)
+			(at 336.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +9275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 397.51 72.39 0)
+			(at 336.55 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8333,6 +9303,177 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 273.05 190.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aaa313ec-2b06-4c09-9f20-607c6fd64682")
+		(property "Reference" "R26"
+			(at 273.05 188.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 273.05 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.05 192.278 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a701db27-a610-4227-adf9-e4e83dc143bf")
+		)
+		(pin "2"
+			(uuid "600978d7-61f0-474f-baed-9ea4e899eea4")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "FloraSense"
+				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flora_sense:AO3401A")
+		(at 321.31 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afe31b4d-9e9e-4863-ae67-8d096e672caf")
+		(property "Reference" "Q3"
+			(at 329.946 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 330.454 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "flora_sense:AO3400A"
+			(at 336.55 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf"
+			(at 336.55 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bdfb280-779a-4d5e-a64f-d6f7570291e2")
+		)
+		(pin "3"
+			(uuid "47989a87-d49d-4ad6-a8d4-59cc5d00cee3")
+		)
+		(pin "2"
+			(uuid "1c6daa4e-8129-4fd5-8133-97c9036ac367")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+			(project "FloraSense"
+				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 298.45 76.2 0)
 		(unit 1)
@@ -8353,7 +9494,7 @@
 				)
 			)
 		)
-		(property "Value" "SS24 flyback"
+		(property "Value" "SS24"
 			(at 298.45 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8363,7 +9504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 298.45 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8417,90 +9558,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 294.64 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9fd9d1d-7b7d-4a8b-a7b9-a1d574a22ade")
-		(property "Reference" "#PWR950004"
-			(at 294.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 294.64 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7261a6d0-87ed-43ad-a471-21baa64633fc")
-		)
-		(instances
-			(project "flora_sense"
-				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950004")
-					(unit 1)
-				)
-			)
-			(project "FloraSense"
-				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 351.79 297.18 180)
+		(at 386.08 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8510,7 +9569,7 @@
 		(dnp no)
 		(uuid "c52f0bd0-aa4e-4258-87ab-7a820f5b64e2")
 		(property "Reference" "#PWR950011"
-			(at 351.79 290.83 0)
+			(at 386.08 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8521,7 +9580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 293.37 0)
+			(at 386.08 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8531,7 +9590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 297.18 0)
+			(at 386.08 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8542,7 +9601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 297.18 0)
+			(at 386.08 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +9612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 297.18 0)
+			(at 386.08 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8581,18 +9640,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 323.85 204.47 0)
+		(lib_id "power:+5V")
+		(at 323.85 199.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d0ad2618-25a4-438d-b647-fc5ab5c76bdf")
-		(property "Reference" "R18"
-			(at 325.882 204.47 90)
+		(uuid "cf1ef79e-8d0b-4308-b847-9557672a77de")
+		(property "Reference" "#PWR0950116"
+			(at 323.85 195.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8601,8 +9661,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 323.85 204.47 90)
+		(property "Value" "+5V"
+			(at 323.85 202.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8612,7 +9672,82 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.072 204.47 90)
+			(at 323.85 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69228ae0-6b61-461f-9554-5723423f840c")
+		)
+		(instances
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "#PWR0950116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 325.12 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0ad2618-25a4-438d-b647-fc5ab5c76bdf")
+		(property "Reference" "R18"
+			(at 321.31 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 321.31 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 323.342 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +9758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 204.47 0)
+			(at 325.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +9769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 204.47 0)
+			(at 325.12 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8695,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 299.72 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -8743,6 +9878,88 @@
 			(project "FloraSense"
 				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 335.28 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1f2f021-2c0b-456d-9b34-9861b62cb43f")
+		(property "Reference" "#FLG04"
+			(at 340.36 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 335.534 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db0bd89-0b48-432a-8bec-b2736b2245b9")
+		)
+		(instances
+			(project "FloraSense"
+				(path "/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+			(project "flora_sense"
+				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8834,7 +10051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 203.2 0)
+		(at 335.28 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8844,7 +10061,7 @@
 		(dnp no)
 		(uuid "daea58dd-30c2-4088-a529-8eaacfd841e1")
 		(property "Reference" "#PWR950013"
-			(at 344.17 209.55 0)
+			(at 335.28 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8855,7 +10072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 207.01 0)
+			(at 335.28 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8865,7 +10082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 203.2 0)
+			(at 335.28 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,7 +10093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 203.2 0)
+			(at 335.28 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8887,7 +10104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 203.2 0)
+			(at 335.28 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8915,94 +10132,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 392.43 275.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2c575e7-4b9a-4493-8f22-35ec1f23e145")
-		(property "Reference" "C14"
-			(at 393.065 273.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 393.065 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.3952 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 392.43 275.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efb1546e-37b5-4d67-bd7e-51ee35044e88")
-		)
-		(pin "2"
-			(uuid "f063223e-3817-4025-bf36-ee0b5bf3e865")
-		)
-		(instances
-			(project "flora_sense"
-				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-			(project "FloraSense"
-				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 353.06 66.04 0)
+		(at 283.21 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9012,7 +10143,7 @@
 		(dnp no)
 		(uuid "e53cf9b8-24d3-497e-b722-6dc2eba73908")
 		(property "Reference" "#PWR950005"
-			(at 353.06 69.85 0)
+			(at 283.21 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9023,7 +10154,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 353.06 62.484 0)
+			(at 283.21 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9033,7 +10164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 66.04 0)
+			(at 283.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +10175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 66.04 0)
+			(at 283.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +10186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 66.04 0)
+			(at 283.21 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9083,19 +10214,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 392.43 279.4 0)
+		(lib_id "flora_sense:AO3400A")
+		(at 293.37 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f8198fef-3fd0-4271-93eb-80b5cfd36243")
-		(property "Reference" "#PWR950009"
-			(at 392.43 285.75 0)
-			(hide yes)
+		(uuid "f2a7b91e-c079-41f1-902d-c10b24da664e")
+		(property "Reference" "Q4"
+			(at 302.006 211.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9104,8 +10234,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 392.43 283.21 0)
+		(property "Value" "AO3400A"
+			(at 302.514 213.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9114,30 +10244,30 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 392.43 279.4 0)
+		(property "Footprint" "flora_sense:AO3400A"
+			(at 308.61 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.9 0.9)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 392.43 279.4 0)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 308.61 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.9 0.9)
 				)
 			)
 		)
 		(property "Description" ""
-			(at 392.43 279.4 0)
+			(at 293.37 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9147,100 +10277,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "70294d8e-5296-4b7f-bc10-b4337a747a77")
+			(uuid "b2c6af0e-176f-4022-acb1-e4d9248006bb")
+		)
+		(pin "3"
+			(uuid "cac5edd2-68b5-4c9c-9878-119f28b037ab")
+		)
+		(pin "2"
+			(uuid "e7da989b-fc92-4eba-bd30-57f06b73ab1d")
 		)
 		(instances
 			(project "flora_sense"
 				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950009")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
 			(project "FloraSense"
 				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950009")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 392.43 271.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdf38355-b274-4dd1-8386-0b37d4c7d699")
-		(property "Reference" "#PWR950003"
-			(at 392.43 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 392.43 268.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 392.43 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b7f2510-6821-4d45-b944-4bbc6ce772b9")
-		)
-		(instances
-			(project "flora_sense"
-				(path "/770e74fd-b7d0-4c8e-9624-1eb15ea7f2b3/2250a44e-e1b0-4896-b7ec-2a64462fc322"
-					(reference "#PWR950003")
-					(unit 1)
-				)
-			)
-			(project "FloraSense"
-				(path "/adb3264b-f992-4597-a611-d7bc662972b3"
-					(reference "#PWR950003")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
